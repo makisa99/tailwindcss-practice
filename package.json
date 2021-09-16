@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-practice",
+  "version": "1.0.0",
+  "description": "Generate package.json: npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build -i src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makisa99/tailwindcss-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makisa99/tailwindcss-practice/issues"
+  },
+  "homepage": "https://github.com/makisa99/tailwindcss-practice#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.15"
+  }
+}
